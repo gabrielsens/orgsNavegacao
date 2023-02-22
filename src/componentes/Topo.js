@@ -28,7 +28,7 @@ export default function Topo({titulo, imagem = topo, altura = ALTURA_PADRAO}) {
       />
       <Texto style={estilos.titulo}>{titulo}</Texto>
       <TouchableOpacity onPress={() => {}} style={estilos.botaoVoltar}>
-        <VoltarSVG color="white" style={estilos.voltar} />
+        {/* <VoltarSVG color="white" style={estilos.voltar} /> */}
       </TouchableOpacity>
     </>
   );
